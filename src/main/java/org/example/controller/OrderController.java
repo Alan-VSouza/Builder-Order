@@ -10,6 +10,10 @@ public class OrderController {
         this.view = view;
     }
 
+    public void createOrder(String product, int quantity, double price, String customer) {
+        createOrder(product, quantity, price, customer, null);
+    }
+
     public void createOrder(String product, int quantity, double price, String customer, String deliveryAddress) {
         Order order = Order.builder()
                 .product(product)

@@ -45,8 +45,7 @@ public class Main {
                 "Monitor 4K",
                 2,
                 2000.00,
-                "Fernanda Costa",
-                "Alameda Azul, 321"
+                "Fernanda Costa"
         );
     }
 }
