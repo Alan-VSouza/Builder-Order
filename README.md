@@ -114,9 +114,11 @@ Delivery Address:  Rua das Flores, 789
 ---
 
 ## Tecnologias Utilizadas
-- Java 8+
-- Padrão Step Builder: Criação fluida e lógica de objetos complexos.
-- Arquitetura MVC: Organização modular e clara.
+- **Java 8+:** Linguagem principal para implementação do projeto.
+- **Padrão Step Builder:** Garante a criação fluida e lógica de objetos complexos.
+- **Lombok:** Reduz a verbosidade do código, gerando automaticamente métodos como `toString`, `builder` e outros.
+- **Padrão Builder:** Implementação de construção segura de objetos utilizando um design modular.
+- **Arquitetura MVC:** Organização do código em camadas (Model, View e Controller), garantindo modularidade e clareza.
 
 ---
 
