@@ -127,7 +127,7 @@ Delivery Address:  Rua das Flores, 789
 - Clone este repositório:
 
 ```
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Alan-VSouza/Builder-Order.git
 ```
 - Importe o projeto em sua IDE de preferência (IntelliJ, Eclipse, etc.).
 - Certifique-se de que o Java 8+ está configurado em sua IDE.
