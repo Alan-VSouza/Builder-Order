@@ -1,7 +1,7 @@
 package org.example;
 
-import org.example.controller.OrderController;
-import org.example.view.OrderView;
+import org.example.lombok.controller.OrderController;
+import org.example.lombok.view.OrderView;
 
 public class Main {
     public static void main(String[] args) {

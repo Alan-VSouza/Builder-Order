@@ -1,7 +1,7 @@
-package org.example.controller;
+package org.example.lombok.controller;
 
-import org.example.model.Order;
-import org.example.view.OrderView;
+import org.example.lombok.model.Order;
+import org.example.lombok.view.OrderView;
 
 public class OrderController {
     private final OrderView view;

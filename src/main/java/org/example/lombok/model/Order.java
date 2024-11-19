@@ -1,4 +1,4 @@
-package org.example.model;
+package org.example.lombok.model;
 
 import lombok.Builder;
 import lombok.ToString;

@@ -1,6 +1,6 @@
-package org.example.view;
+package org.example.lombok.view;
 
-import org.example.model.Order;
+import org.example.lombok.model.Order;
 
 public class OrderView {
     private int orderCount = 0;
