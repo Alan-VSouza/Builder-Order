@@ -1,38 +1,38 @@
 package org.example.Builder;
 
 public class OrderBuilder {
-    private Order order;
-
-    public OrderBuilder() {
-        order = new Order();
-    }
+    private String product;
+    private int quantity;
+    private double price;
+    private String customer;
+    private String deliveryAddress;
 
     public OrderBuilder product(String product) {
-        order.setProduct(product);
+        this.product = product;
         return this;
     }
 
     public OrderBuilder quantity(int quantity) {
-        order.setQuantity(quantity);
+        this.quantity = quantity;
         return this;
     }
 
     public OrderBuilder price(double price) {
-        order.setPrice(price);
+        this.price = price;
         return this;
     }
 
     public OrderBuilder customer(String customer) {
-        order.setCustomer(customer);
+        this.customer = customer;
         return this;
     }
 
     public OrderBuilder deliveryAddress(String deliveryAddress) {
-        order.setDeliveryAddress(deliveryAddress);
+        this.deliveryAddress = deliveryAddress;
         return this;
     }
 
     public Order build() {
-        return order;
+        return new Order(product,quantity,price,customer,deliveryAddress);
     }
 }

@@ -1,31 +1,39 @@
 package org.example.Builder;
 
 public class Order {
-    private String product;
-    private int quantity;
-    private double price;
-    private String customer;
-    private  String deliveryAddress;
+    private final String product;
+    private final int quantity;
+    private final double price;
+    private final String customer;
+    private  final String deliveryAddress;
 
 
-    public void setProduct(String product) {
+    public Order(String product, int quantity, double price, String customer, String deliveryAddress) {
         this.product = product;
-    }
-
-    public void setQuantity(int quantity) {
         this.quantity = quantity;
-    }
-
-    public void setPrice(double price) {
         this.price = price;
-    }
-
-    public void setCustomer(String customer) {
         this.customer = customer;
+        this.deliveryAddress = deliveryAddress;
     }
 
-    public void setDeliveryAddress(String deliveryAddress){
-        this.deliveryAddress = deliveryAddress;
+    public String getProduct() {
+        return product;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String getCustomer() {
+        return customer;
+    }
+
+    public String getDeliveryAddress() {
+        return deliveryAddress;
     }
 
     @Override
